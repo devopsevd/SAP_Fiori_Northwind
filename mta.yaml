@@ -2,9 +2,6 @@ _schema-version: "2.0.0"
 ID: "com.mycompany.northwind"
 version: 0.1.0
 
-parameters:
-  hcp-deployer-version: "1.2.0"
-
 modules:
   - name: productsmta1
     type: com.sap.hcp.html5
