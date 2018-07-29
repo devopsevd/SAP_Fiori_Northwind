@@ -3,11 +3,11 @@ ID: com.mycompany.northwind
 version: 0.1.5
 
 modules:
-  - name: productsmta1-test
-    type: com.sap.hcp.html5
-    path: .
-    parameters:
-        version: 0.1.0-${timestamp}
-    build-parameters:
-        builder: grunt
-        build-result: dist
+- name: productsmta1-test
+  type: com.sap.hcp.html5
+  path: .
+  parameters:
+   version: 0.1.0-${timestamp}
+   build-parameters:
+    builder: grunt
+    build-result: dist
