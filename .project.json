@@ -49,8 +49,8 @@
     "resourceModelName": "i18n"
   },
   "mockpreview": {
-    "mockUri": "/Northwind/V2/Northwind/Northwind.svc",
-    "metadataFilePath": "",
+    "mockUri": "/Northwind/V2/Northwind/Northwind.svc/",
+    "metadataFilePath": "localService/metadata.xml",
     "loadJSONFiles": false,
     "loadCustomRequests": false,
     "mockRequestsFilePath": ""
