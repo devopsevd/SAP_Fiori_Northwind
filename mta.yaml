@@ -6,7 +6,7 @@ parameters:
   hcp-deployer-version: "1.0.0"
 
 modules:
-  - name: "Products_mta"
+  - name: "products-mta"
     type: com.sap.hcp.html5
     path: .
     parameters:
