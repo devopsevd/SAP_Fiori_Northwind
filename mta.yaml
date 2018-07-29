@@ -1,5 +1,5 @@
 _schema-version: "2.0.0"
-ID: "Products_mta"
+ID: "Products.mta.rm"
 version: 0.1.0
 
 parameters:
@@ -7,7 +7,7 @@ parameters:
 
 modules:
   - name: "Products_mta"
-    type: html5
+    type: com.sap.hcp.html5
     path: .
     parameters:
        version: 0.1.0-${timestamp}
